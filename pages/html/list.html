@@ -3,16 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="icon" href="../../favicon.ico" type="image/png">
-
-	<title>Kapamilya Wrapper</title>
-	<meta name="description" content="Wrapper Online is the Website edition to Wrapper offline | Legacy video maker for the GoAnimate community! Discord server: Https://discord.gg/goanimate">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="Wrapper Online Home" />
-	<meta property="og:description" content="Wrapper Online is the Website edition to Wrapper offline | Legacy video maker for the GoAnimate community! Discord server: Https://discord.gg/goanimate" />
-	<meta property="og:url" content="https://wrapper.online/" />
-	<meta property="og:image:secure_url" content="favicon.ico" /> 
-	<meta property="og:image:" content="favicon.ico" /> 
-	<meta name="theme-color" content="#FF0080">
+	<title>Video List</title>
+	<meta name="description" content="Wrapper: Offline's Video List">
 	<link rel="stylesheet" type="text/css" href="../css/modern-normalize.css">
 	<link rel="stylesheet" type="text/css" href="../css/global.css">
 	<link rel="stylesheet" type="text/css" href="../css/list.css">
@@ -20,11 +12,60 @@
 <body>
 
 <header>
-	<h1 style="margin:0"><img id="logo" src="../img/list_logo.png" alt="Wrapper: Online"/></h1>
+	<h1 style="margin:0"><img id="logo" src="../img/list_logo.png" alt="Wrapper: Offline"/></h1>
+                                               <p>1.2.7p2</h1>
 	<nav id="headbuttons">
-		
+		<a class="button_small" onclick="document.getElementById('file').click()">UPLOAD A MOVIE</a>
 		<div class="dropdown_contain button_small">
-			<div class="dropdown_button">Kapamilya Characters</div>
+			<div class="dropdown_button">CREATE A CHARACTER</div>
+			<nav class="dropdown_menu">
+				<h2>Comedy World</h2>
+				<a href="/cc?themeId=family&bs=adam">Guy (Adam)</a>
+				<a href="/cc?themeId=family&bs=eve">Girl (Eve)</a>
+				<a href="/cc?themeId=family&bs=bob">Fat (Bob)</a>
+				<a href="/cc?themeId=family&bs=rocky">Buff (Rocky)</a>
+				<hr>
+				<h2>Anime</h2>
+				<a href="/cc?themeId=anime&bs=guy">Guy</a>
+				<a href="/cc?themeId=anime&bs=girl">Girl</a>
+				<a href="/cc?themeId=ninjaanime&bs=guy">Guy (Ninja)</a>
+				<a href="/cc?themeId=ninjaanime&bs=girl">Girl (Ninja)</a>
+				<hr>
+				<h2>Peepz</h2>
+				<a href="/cc?themeId=cc2&bs=default">Lil Peepz</a>
+				<a href="/cc?themeId=chibi&bs=default">Chibi Peepz</a>
+				<a href="/cc?themeId=ninja&bs=default">Chibi Ninjas</a>
+			</nav>
+                            </div>
+		<div class="dropdown_contain button_small">
+			<div class="dropdown_button">BROWSE CHARACTERS</div>
+				<nav class="dropdown_menu">
+					<a href="/cc_browser?themeId=family">Comedy World</a>
+					<a href="/cc_browser?themeId=anime">Anime</a>
+					<a href="/cc_browser?themeId=ninjaanime">Ninja Anime</a>
+					<a href="/cc_browser?themeId=cc2">Lil' Peepz</a>
+					<a href="/cc_browser?themeId=chibi">Chibi Peepz</a>
+					<a href="/cc_browser?themeId=ninja">Chibi Ninjas</a>
+				</nav>
+                            </div>
+		<div class="dropdown_contain button_small">
+			<div class="dropdown_button">SHOP</div>
+				<nav class="dropdown_menu">
+					<a href="https://www.alexdirector09.wixsite.com/legacy-plus">GoAnimate Legacy+</a>
+					<a href="https://www.alexdirector09.wixsite.com/goanimate4shopping"/">GoAnimate4Shopping</a>
+					<a href="https://www.wrappershop.ga">Wrapper Shop</a
+				</nav>
+                            </div>
+		<div class="dropdown_contain button_small">
+			<div class="dropdown_button">MENU WIDE</div>
+				<nav class="dropdown_menu">
+					<a href="/go_full?isWide=0">MAKE A WIDE</a>
+					<a href="/go_full?tray=custom">COMEDY WORLD</a>
+                                                                        <a href="/pages/html/lvm2.html" class="button_small">Kapamilya Online Live</a>
+			</nav>
+                             </div>
+		<div class="dropdown_contain button_small">
+			<div class="dropdown_button">Make A Character</div>
 			<nav class="dropdown_menu">
 				<h2>Pick a Character Creator Browser</h2>
 				<a href="/cc_browser?themeId=family">Comedy World</a>
@@ -37,7 +78,7 @@
 				<a href="/cc_browser?themeId=cctoonadventure">Toon Adventure</a>
 				<a href="/cc_browser?themeId=spacecitizen">Space Citizen</a>
 				<div class="dropdown_contain button_small">
-					<div class="dropdown_button">CREATE A CHARACTER</div>
+					<div class="dropdown_button">Legacy A Characters</div>
 					<nav class="dropdown_menu">
 						<h2>Comedy World</h2>
 						<a href="/cc?themeId=family&bs=adam">Guy (Adam)</a>
@@ -55,10 +96,14 @@
 						<a href="/cc?themeId=cc2&bs=default">Lil Peepz</a>
 						<a href="/cc?themeId=chibi&bs=default">Chibi Peepz</a>
 						<a href="/cc?themeId=ninja&bs=default">Chibi Ninjas</a>
+						<hr>
+						<h2>Business Friendly</h2>
+						<a href="/cc?themeId=business&amp;bs=default">Business Friendly Female And Male</a>
+						<a href="/cc?themeId=business&amp;bs=kid">Business Friendly Girl And Boy</a>
 					</nav>
 			</nav>
 		</div>
-		<a href="/go_full?tray=custom" class="button_small">Kapamilya Video</a>
+		<a href="/go_full" class="button_big">MAKE A VIDEO</a>
 	</nav>
 </header>
 
@@ -66,10 +111,10 @@
 	<table>
 		<thead>
 			<tr>
-				<h2>They from ABS-CBN Kapamilya Channel Available now GSAT SKYCABLELINK</h2>
-				<h2>ABS-CBN TELEVISION Shut down from 5 May 2020 during the Kapamilya Channel</h2>
+				<td></td>
 				<td>Video Title</td>
 				<td>Last Modified</td>
+                                                         <center> Your Videos </center>
 				<td></td>
 			</tr>
 		</thead>
@@ -84,17 +129,21 @@
 
 <footer>
 	<nav id="foot-left">
+		<a href="https://localhost:4664/faq.html">FAQ</a>
+                             <a href="https://discord.gg/yhGAetN">W:O Discord</a>
 		<a href="https://discord.gg/goanimate">Wrapper Central Discord</a>
 	</nav>
 
 	<nav id="foot-right">
-		<a href="https://wrapper.online">Server Page</a>
-		<a href="https://wrapper.online/caillou.html">Caillou</a>
+		<a href="https://localhost:4664">Server Page</a>
+                             <a href="https://assets.wrapper.online">Server Page 2</a>
+		<a href="https://localhost:4664/caillou.html">Caillou</a>
 	</nav>
 </footer>
 
 
-
+<form enctype='multipart/form-data' action='/upload_movie' method='post'>
+	<input id='file' type="file" onchange="this.form.submit()" name='import' />
 </form>
 
 </body>
